@@ -12,6 +12,7 @@ specifiers:
   aws-sdk: ^2.1318.0
   bcrypt: ^5.1.0
   clsx: ^1.2.1
+  dayjs: ^1.11.7
   esbuild: ^0.17.8
   eslint: ^8.34.0
   eslint-plugin-only-warn: ^1.1.0
@@ -37,10 +38,10 @@ dependencies:
   '@prisma/client': 4.10.1_prisma@4.10.1
   '@solidjs/meta': 0.28.2_solid-js@1.6.11
   '@solidjs/router': 0.7.0_solid-js@1.6.11
-  '@types/bcrypt': 5.0.0
   aws-sdk: 2.1318.0
   bcrypt: 5.1.0
   clsx: 1.2.1
+  dayjs: 1.11.7
   mock-aws-s3: 4.0.2
   nock: 13.3.0
   prisma: 4.10.1
@@ -51,6 +52,7 @@ dependencies:
 
 devDependencies:
   '@iconify/utils': 2.1.4
+  '@types/bcrypt': 5.0.0
   '@types/node': 18.14.0
   '@typescript-eslint/eslint-plugin': 5.52.0_6cfvjsbua5ptj65675bqcn6oza
   '@typescript-eslint/parser': 5.52.0_7kw3g6rralp5ps6mg3uyzz6azm
@@ -2053,7 +2055,7 @@ packages:
     resolution: {integrity: sha512-agtcFKaruL8TmcvqbndlqHPSJgsolhf/qPWchFlgnW1gECTN/nKbFcoFnvKAQRFfKbh+BO6A3SWdJu9t+xF3Lw==}
     dependencies:
       '@types/node': 18.14.0
-    dev: false
+    dev: true
 
   /@types/cookie/0.5.1:
     resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
@@ -2902,6 +2904,10 @@ packages:
 
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
+
+  /dayjs/1.11.7:
+    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==}
+    dev: false
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
